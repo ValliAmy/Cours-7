@@ -34,5 +34,5 @@ View(df)
 ## Tâche 3 - Espèce de ...
 
 ```{r}
-
+espece <- sum(!is.na(df$name))
 ```
