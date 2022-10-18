@@ -38,5 +38,19 @@ espece <- sum(!is.na(df$name))
 
 cas_complets <- complete.cases(df)
 df_complets <- df[cas_complets, ]
-length(df_complets$name)
+length(df$name)
+```
+
+## Tâche 4 - Espèce invalide
+
+## Tâche 5 - 
+
+```{r}
+
+dim(df)
+str(df)
+summary(df)
+
+missing_a_lot <- df[ ,c("name","sleep_cycle")]
+
 ```
