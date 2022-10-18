@@ -35,4 +35,8 @@ View(df)
 
 ```{r}
 espece <- sum(!is.na(df$name))
+
+cas_complets <- complete.cases(df)
+df_complets <- df[cas_complets, ]
+length(df_complets$name)
 ```
